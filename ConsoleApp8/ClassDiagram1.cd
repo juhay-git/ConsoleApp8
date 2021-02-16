@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConsoleApp8.Program">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="lista" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ConsoleApp8.Kirja">
+    <Position X="3.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kirja.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConsoleApp8.Lehti">
+    <Position X="5.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAAAAAAgAAgAAAAAAAAAAAACAAAAAAAABAAA=</HashCode>
+      <FileName>Lehti.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConsoleApp8.Aanite">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAQAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Aanite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp8.Tekija">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAIA=</HashCode>
+      <FileName>Tekija.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp8.Teos">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <AssociationLine Name="Tekija" Type="ConsoleApp8.Tekija" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="1.874" />
+        <Point X="5.375" Y="1.874" />
+        <Point X="5.375" Y="2.451" />
+        <Point X="3" Y="2.451" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAwAAAAAAAAEAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Teos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Tekija" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ConsoleApp8.ISivumaara" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISivumaara.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
